@@ -1,0 +1,27 @@
+---
+layout: default
+permalink: /
+---
+
+<div class="home">
+
+  <img class="index-image right" src="/images/me.jpg" />
+
+  <p>I'm an iOS engineer at <a href="http://www.molabs.com/">MoLabs</a> in NYC where I'm working on <a href="http://spiralapp.com/">Spiral</a>.</p>
+  <p>Before that I was at <a href="http://www.retailmenot.com/">RetailMeNot</a> in Austin, TX.</p>
+  <p>I'm interested in programming and music. I've got lotsa cool web presences: <a href="https://github.com/michaelpace">code</a>, <a href="https://soundcloud.com/onionslice">music</a>, <a href="http://www.last.fm/user/mspasta/">listening habits</a>, <a href="https://www.goodreads.com/user/show/44054775-mchl-pc">reading habits</a>, <a href="https://www.are.na/mchl-pc/channels">bookmarking</a>, <a href="https://twitter.com/incrediblepasta/">tweets</a>. Email me at <a href="mailto:mpace1027@gmail.com">mpace1027@gmail.com</a>.</p>
+  <p>See blog posts below, and <a href="/feed.xml">subscribe via RSS</a>.</p>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">📅 {{ post.date | date: "%b %-d, %Y" }}:</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

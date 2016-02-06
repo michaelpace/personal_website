@@ -1,0 +1,6 @@
+_site
+deploy*.sh
+.sass-cache
+.jekyll-metadata
+.DS_Store
+*.swp
