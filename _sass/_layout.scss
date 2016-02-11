@@ -214,3 +214,40 @@
     }
 }
 
+/**
+ * Project page
+ */
+
+.project-title {
+    margin: 0 0;
+}
+
+.project-description {
+    padding-left: $spacing-unit;
+}
+
+.project-details {
+    font-size: $small-font-size;
+    margin: 0 0;
+}
+
+.project-status-started {
+    background-color: yellow;
+}
+.project-status-started:after {
+    content: "started"
+}
+
+.project-status-done {
+    background-color: lighten(green, 50%);
+}
+.project-status-done:after {
+    content: "done"
+}
+
+.project-status-not-started {
+    background-color: pink;
+}
+.project-status-not-started:after {
+    content: "not started"
+}
