@@ -34,7 +34,7 @@
 }
 
 .index-image {
-    max-width: 240px;
+    max-width: 220px;
     margin: 0 16px;
     display: block;
     float: right;
@@ -235,11 +235,11 @@
     margin: 0 0;
 }
 
-.project-status-started {
+.project-status-in-progress {
     background-color: yellow;
 }
-.project-status-started:after {
-    content: "started"
+.project-status-in-progress:after {
+    content: "in progress"
 }
 
 .project-status-done {
@@ -254,4 +254,11 @@
 }
 .project-status-not-started:after {
     content: "not started"
+}
+
+.project-status-shelved {
+    background-color: yellow;
+}
+.project-status-shelved:after {
+    content: "shelved"
 }
