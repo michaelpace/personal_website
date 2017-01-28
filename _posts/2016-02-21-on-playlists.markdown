@@ -2,6 +2,7 @@
 layout: post
 title:  "On playlists"
 date:   2016-02-21 00:00:00 -0500
+tags: music
 ---
 I'm normally not much of a playlist listener, more often than not preferring to listen to albums front-to-back. I get frustrated at the lack of continuity in many playlists. Still, finding the right album for the moment takes time -- sometimes too much time. I've spent 45 minutes finding the perfect album to cook to, only to be driven outside by my hunger to some grease provider while the groceries inside my apartment frowned and wilted. To avoid that happening in 2016, I've decided to make a few activity-specific playlists. 
 
