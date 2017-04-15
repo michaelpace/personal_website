@@ -239,26 +239,40 @@
     background-color: yellow;
 }
 .project-status-in-progress:after {
-    content: "in progress"
+    content: "in progress";
 }
 
 .project-status-done {
     background-color: lighten(green, 50%);
 }
 .project-status-done:after {
-    content: "done"
+    content: "done";
 }
 
 .project-status-not-started {
     background-color: pink;
 }
 .project-status-not-started:after {
-    content: "not started"
+    content: "not started";
 }
 
 .project-status-shelved {
     background-color: yellow;
 }
 .project-status-shelved:after {
-    content: "shelved"
+    content: "shelved";
+}
+
+.project-status-ongoing {
+    background-color: lighten(green, 50%);
+}
+.project-status-ongoing:after {
+    content: "ongoing";
+}
+
+.project-status-idea {
+    background-color: yellow;
+}
+.project-status-idea:after {
+    content: "idea";
 }
