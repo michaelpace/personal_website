@@ -4,4 +4,3 @@ deploy*.sh
 .jekyll-metadata
 .DS_Store
 *.swp
-_drafts
