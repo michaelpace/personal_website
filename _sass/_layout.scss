@@ -33,11 +33,8 @@
     font-size: 40px;
 }
 
-.index-image {
-    max-width: 33%;
-    margin: 0 16px;
-    display: block;
-    float: right;
+.links {
+    text-align: right;
 }
 
 /**
@@ -149,6 +146,7 @@
 }
 
 .post-list {
+    margin-top: 50px;
     margin-left: 0;
     list-style: none;
 
